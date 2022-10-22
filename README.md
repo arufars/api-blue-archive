@@ -48,7 +48,6 @@ Link : [/api/characters?page=NUMBER&perPage=NUMBER](http://localhost:3000/api/v1
   "school": "Gehenna",
   "birthday": "November 8",
   "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/2/26/Iori.png/266px-Iori.png",
-  "image": "",
   "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
   "damageType": "Penetration"
 }
