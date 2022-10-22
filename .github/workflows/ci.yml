@@ -7,10 +7,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2         # checkout the repo
       - run: node --version               # print node version
-      - run: pnpm ci                       # install packages
-      - run: pnpm run build                # build the app
-      - run: pnpm lint                     # lint the app
-      - run: pnpm test                     # run tests (configured to use jest-junit reporter)
+      - run: npm i                       # install packages
+      - run: npm run build                # build the app
+      - run: npm lint                     # lint the app
+      - run: npm test                     # run tests (configured to use jest-junit reporter)
       - uses: actions/upload-artifact@v2  # upload test results
         if: success() || failure()        # run this step even if previous step failed
         with:
