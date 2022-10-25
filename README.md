@@ -1,6 +1,6 @@
 # Blue Archive API
 
-Author: [arufars](https://github.com/arufars)\
+Author: [tuturu](https://github.com/arufars)\
 https://api-blue-archive.vercel.app
 
 
