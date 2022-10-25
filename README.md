@@ -1,7 +1,7 @@
 # Blue Archive API
 
 Author: [tuturu](https://github.com/arufars)\
-endpoint: https://api-blue-archive.vercel.app
+`endpoint: https://api-blue-archive.vercel.app`
 
 ![](https://img.shields.io/website?down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fapi-blue-archive.vercel.app%2F)
 ![](https://img.shields.io/github/last-commit/Marineux/api-blue-archive?style=flat-square)
@@ -128,103 +128,73 @@ All Route and Example results
 > endpoint : [`/api/characters/students`](https://api-blue-archive.vercel.app/api/v1/characters/students)
 
 ```json
-
 {
+  "_id": "634105c207843834fd29f012",
 
-{
+  "name": "Ako",
 
-"_id": "634105c207843834fd29f012",
+  "names": {
+    "firstName": "Ako",
 
-"name": "Ako",
+    "lastName": "Amau",
 
-"names": {
+    "japanName": " 天雨 アコ"
+  },
 
-"firstName": "Ako",
+  "age": "17",
 
-"lastName": "Amau",
+  "school": "Gehenna",
 
-"japanName": " 天雨 アコ"
+  "birthday": "December 22",
 
-},
+  "background": "A student of Gehenna Academy, Ako is the executive officer of the Disciplinary Committee, and a sort-of secretary to its president Hina. At first glance she may appear kind and good-natured, but Ako has zero tolerance for students who break the rules. She is constantly at Hina's side, assisting in her duties as president of the Disciplinary Committee. This has prompted other students to call her \"Hina's Pet\" amongst other things, but Ako doesn't particulary care.",
 
-"age": "17",
+  "height": "165cm",
 
-"school": "Gehenna",
+  "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/7/72/Ako.png/266px-Ako.png",
 
-"birthday": "December 22",
+  "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
 
-"background": "A student of Gehenna Academy, Ako is the executive officer of the Disciplinary Committee, and a sort-of secretary to its president Hina. At first glance she may appear kind and good-natured, but Ako has zero tolerance for students who break the rules. She is constantly at Hina's side, assisting in her duties as president of the Disciplinary Committee. This has prompted other students to call her \"Hina's Pet\" amongst other things, but Ako doesn't particulary care.",
+  "hobbies": ["President Hina"],
 
-"height": "165cm",
+  "voice": "Kouno Marika",
 
-"photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/7/72/Ako.png/266px-Ako.png",
+  "voices": "https://static.miraheze.org/bluearchivewiki/a/aa/Ako_Title.ogg",
 
-"imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
+  "role": ["Support/Back", "Support", "Back"],
 
-"hobbies": [
+  "damageType": "Mystic",
 
-"President Hina"
+  "armorType": "Heavy",
 
-],
+  "affinity": [
+    {
+      "urban": "https://static.miraheze.org/bluearchivewiki/thumb/1/13/Icon_location_city.png/24px-Icon_location_city.png",
 
-"voice": "Kouno Marika",
+      "urbanEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/8/81/Icon_mood_d.png/20px-Icon_mood_d.png"
+    },
 
-"voices": "https://static.miraheze.org/bluearchivewiki/a/aa/Ako_Title.ogg",
+    {
+      "outdoors": "https://static.miraheze.org/bluearchivewiki/thumb/6/6d/Icon_location_outdoors.png/24px-Icon_location_outdoors.png",
 
-"role": [
+      "outdoorsEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/5/5f/Icon_mood_b.png/20px-Icon_mood_b.png"
+    },
 
-"Support/Back",
+    {
+      "indoors": "https://static.miraheze.org/bluearchivewiki/thumb/c/c1/Icon_location_indoors.png/24px-Icon_location_indoors.png",
 
-"Support",
+      "indoorsEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/e/e3/Icon_mood_s.png/20px-Icon_mood_s.png"
+    }
+  ],
 
-"Back"
+  "weapon": "HG",
 
-],
+  "weaponUnique": "Hotshot",
 
-"damageType": "Mystic",
+  "weaponImage": "https://static.miraheze.org/bluearchivewiki/6/6f/Weapon_Icon_20008.png",
 
-"armorType": "Heavy",
-
-"affinity": [
-
-{
-
-"urban": "https://static.miraheze.org/bluearchivewiki/thumb/1/13/Icon_location_city.png/24px-Icon_location_city.png",
-
-"urbanEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/8/81/Icon_mood_d.png/20px-Icon_mood_d.png"
-
-},
-
-{
-
-"outdoors": "https://static.miraheze.org/bluearchivewiki/thumb/6/6d/Icon_location_outdoors.png/24px-Icon_location_outdoors.png",
-
-"outdoorsEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/5/5f/Icon_mood_b.png/20px-Icon_mood_b.png"
-
-},
-
-{
-
-"indoors": "https://static.miraheze.org/bluearchivewiki/thumb/c/c1/Icon_location_indoors.png/24px-Icon_location_indoors.png",
-
-"indoorsEmotion": "https://static.miraheze.org/bluearchivewiki/thumb/e/e3/Icon_mood_s.png/20px-Icon_mood_s.png"
-
+  "realeaseDate": "2021/11/17"
 }
-
-],
-
-"weapon": "HG",
-
-"weaponUnique": "Hotshot",
-
-"weaponImage": "https://static.miraheze.org/bluearchivewiki/6/6f/Weapon_Icon_20008.png",
-
-"realeaseDate": "2021/11/17"
-
-},
-
-}
-
 ```
 
  <h3 id="query">All Query</h3>
