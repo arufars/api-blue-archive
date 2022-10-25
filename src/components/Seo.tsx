@@ -24,6 +24,7 @@ const Seo: React.FC = () => {
       <meta content='@arufars' name='twitter:creator' />
       <meta content='Rest Api Blue Archive' name='twitter:title' />
       <meta content='Rest Api Blue Archive' name='twitter:description' />
+      <meta name="google-site-verification" content="J4xBxwf8ttQKwxN-2biYOU7M80cIqVwitp9yVb7o-Z0" />
 
       <link rel='icon' href='/arona.ico' />
     </Head>
