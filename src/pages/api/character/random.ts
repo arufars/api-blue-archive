@@ -3,7 +3,7 @@ import dbConnect from "lib/dbConnect"
 import Character from "model/Character"
 import NextCors from "nextjs-cors"
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  await NextCors(req, res, { methods: ["GET", "HEAD"], origin: "*", optionsSuccessStatus: 200 })
+  await NextCors(req, res, { methods: ["GET"], origin: "*", optionsSuccessStatus: 200 })
   await dbConnect()
   const { method } = req
   switch (method) {

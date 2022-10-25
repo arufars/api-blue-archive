@@ -6,7 +6,7 @@ import selectData from "utils/selectData"
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   await NextCors(req, res, {
-    methods: ["GET", "HEAD"],
+    methods: ["GET"],
     origin: "*",
     optionsSuccessStatus: 200,
   })

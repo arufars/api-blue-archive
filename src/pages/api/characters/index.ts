@@ -5,7 +5,7 @@ import NextCors from "nextjs-cors"
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   await NextCors(req, res, {
-    methods: ["GET", "HEAD"],
+    methods: ["GET"],
     origin: "*",
     optionsSuccessStatus: 200,
   })
@@ -25,7 +25,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             query[key] = req.query[key]
           }
         }
-
         const characters = await Character.find(query)
           .skip(+perPage * (+page - 1))
           .select("name photoUrl school image imageSchool birthday damageType ")
