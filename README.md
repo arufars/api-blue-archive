@@ -1,203 +1,131 @@
-
 # Blue Archive API
-
-  
 
 Author: [tuturu](https://github.com/arufars)\
 endpoint: https://api-blue-archive.vercel.app
 
-  
-  
-
 ![](https://img.shields.io/website?down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fapi-blue-archive.vercel.app%2F)
-
 ![](https://img.shields.io/github/last-commit/Marineux/api-blue-archive?style=flat-square)
-
-![](https://img.shields.io/github/commit-activity/m/Marineux/api-blue-archive/main)
-
-  
+![](https://img.shields.io/github/commit-activity/m/Marineux/api-blue-archive/main?style=flat-square)
 
 # Overview
-
-  
 
 This is an open source API providing character information about the Blue Archive.This information is sourced from the public, i do not claim to own it.
 
 > Still a demo, this application v1
 
-  
-
 # Technologies use
-
-  
 
 Nextjs, MongoDB, Mongoose, Vercel, Nextjscors, Typescript, Tailwindcss ( UI )
 
-  
-
 # Route
-
-  
 
 All Route and Example results
 
-  
-
 ### Get all characters Blue Archive ( By default 20 )
-
-  
 
 > endpoint : [`/api/characters`](https://api-blue-archive.vercel.app/api/v1/characters)
 
-  
-
 ```json
-
 {
+  "_id": "634105b907843834fd29f006",
 
-"_id": "634105b907843834fd29f006",
+  "name": "Airi",
 
-"name": "Airi",
+  "school": "Trinity",
 
-"school": "Trinity",
+  "birthday": "January 30",
 
-"birthday": "January 30",
+  "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/9/96/Airi.png/266px-Airi.png",
 
-"photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/9/96/Airi.png/266px-Airi.png",
+  "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/9/9c/Trinity.png/50px-Trinity.png",
 
-"imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/9/9c/Trinity.png/50px-Trinity.png",
-
-"damageType": "Explosive"
-
+  "damageType": "Explosive"
 }
-
 ```
-
-  
 
 ### Get all characters pagination ( 20 )
 
-  
-
-> endpoint :    [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/v1/characters?page=1&perPage=20)
-
-  
+> endpoint : [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/v1/characters?page=1&perPage=20)
 
 ```json
-
 {
+  "_id": "6341063807843834fd29f0aa",
 
-"_id": "6341063807843834fd29f0aa",
+  "name": "Iori",
 
-"name": "Iori",
+  "school": "Gehenna",
 
-"school": "Gehenna",
+  "birthday": "November 8",
 
-"birthday": "November 8",
+  "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/2/26/Iori.png/266px-Iori.png",
 
-"photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/2/26/Iori.png/266px-Iori.png",
+  "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
 
-"imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
-
-"damageType": "Penetration"
-
+  "damageType": "Penetration"
 }
-
 ```
 
-  
-
 ### Get characters with a specific name, choice Asuna, Hibiki
-
-  
 
 > endpoint : [`/api/characters?name=Aru`](https://api-blue-archive.vercel.app/api/v1/characters?name=Aru)
 > you can choose a `query` other than `name`, [more](#query)
 
-  
-
 ```json
-
 {
+  "_id": "634105c607843834fd29f01a",
 
-"_id": "634105c607843834fd29f01a",
+  "name": "Aru",
 
-"name": "Aru",
+  "school": "Gehenna",
 
-"school": "Gehenna",
+  "birthday": "March 12",
 
-"birthday": "March 12",
+  "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/d/db/Aru.png/266px-Aru.png",
 
-"photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/d/db/Aru.png/266px-Aru.png",
+  "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
 
-"imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Gehenna.png/50px-Gehenna.png",
-
-"damageType": "Explosive"
-
+  "damageType": "Explosive"
 }
-
 ```
-
-  
 
 ### Get random character ( 1 )
 
-  
-
 > endpoint : [`/api/character/random`](https://api-blue-archive.vercel.app/api/character/random)
-
-  
 
 > You can use query count to get more than 1 character
 > endpoint : [`/api/character/random?count=NUMBER`](http://localhost:3000/api/character/random?count=2)
 
-  
-
-
-
-  
-
 ```json
-
 {
+  "_id": "634106a407843834fd29f11a",
 
-"_id": "634106a407843834fd29f11a",
+  "name": "Miyako",
 
-"name": "Miyako",
+  "names": {
+    "firstName": "Miyako",
 
-"names": {
+    "lastName": "Tsukiyuki",
 
-"firstName": "Miyako",
+    "japanName": " 月雪 ミヤコ",
 
-"lastName": "Tsukiyuki",
+    "_id": "634106a407843834fd29f11b"
+  },
 
-"japanName": " 月雪 ミヤコ",
+  "age": "15",
 
-"_id": "634106a407843834fd29f11b"
+  "school": "SRT",
 
-},
+  "birthday": "January 7",
 
-"age": "15",
+  "photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/3/3e/Miyako.png/266px-Miyako.png",
 
-"school": "SRT",
-
-"birthday": "January 7",
-
-"photoUrl": "https://static.miraheze.org/bluearchivewiki/thumb/3/3e/Miyako.png/266px-Miyako.png",
-
-"imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/5/5a/SRT.png/50px-SRT.png"
-
+  "imageSchool": "https://static.miraheze.org/bluearchivewiki/thumb/5/5a/SRT.png/50px-SRT.png"
 }
-
 ```
-
-  
 
 ### Get all students specific ( By default 4 )
 
-  > endpoint : [`/api/characters/students`](https://api-blue-archive.vercel.app/api/v1/characters/students)
-
-  
+> endpoint : [`/api/characters/students`](https://api-blue-archive.vercel.app/api/v1/characters/students)
 
 ```json
 
@@ -299,57 +227,38 @@ All Route and Example results
 
 ```
 
-  
-
  <h3 id="query">All Query</h3>
 All keys can make requests from query
 
-| Query |
-|-------|
-| `name` | 
-| `names` |
-| `age`	|
-| `birthday`|
-| `heigth`|
-| `school`|
-| `hobbies`|
-| `voice`|
-| `damageType`|
-| `role`|
-|`armorType`|
-| `affinity`|
-| `weapon`|
-| `realeaseDate`|
-
-
-  
+| Query          |
+| -------------- |
+| `name`         |
+| `names`        |
+| `age`          |
+| `birthday`     |
+| `heigth`       |
+| `school`       |
+| `hobbies`      |
+| `voice`        |
+| `damageType`   |
+| `role`         |
+| `armorType`    |
+| `affinity`     |
+| `weapon`       |
+| `realeaseDate` |
 
 # Error Handling
 
-  
-
 Ask for assistance from us if you need it or if something doesn't seem to be working right.
 
-  
-
 <br />
-
-  
 
 # License
 
-  
-
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/arufars/api-blue-archive/blob/main/LICENSE) file for details
-
-  
 
 <br />
 
-  
-
 # Acknowledgments
-
-  
 
 - [Blue Archive](https://bluearchive.wiki/wiki/Main_Page)
