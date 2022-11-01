@@ -2,7 +2,8 @@
 
 This is a simple API for the game Blue Archive. It is currently in development and is not ready for use.
 
-> endpoint: https://api-blue-archive.vercel.app
+baseurl: https://api-blue-archive.vercel.app
+
 
 ![](https://img.shields.io/website?down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fapi-blue-archive.vercel.app%2F)
 ![](https://img.shields.io/github/last-commit/Marineux/api-blue-archive?style=flat-square)
