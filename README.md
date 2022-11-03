@@ -25,7 +25,7 @@ All Route and Example results
 
 ### Get all characters Blue Archive ( By default 20 )
 
-> endpoint : [`/api/characters`](https://api-blue-archive.vercel.app/api/characters)
+> endpoint : [`/api/characters`](https://api-blue-archive.vercel.app/api/v1/characters)
 
 <details>
   <summary><em>Payload Example</em></summary>
@@ -46,7 +46,7 @@ All Route and Example results
 
 ### Get all characters pagination ( 20 )
 
-> endpoint : [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/characters?page=1&perPage=20)
+> endpoint : [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/v1/characters?page=1&perPage=20)
 
 <details>
   <summary><em>Payload Example</em></summary>
@@ -68,7 +68,7 @@ All Route and Example results
 
 ### Get characters with a specific name, choice Asuna, Hibiki
 
-> endpoint : [`/api/characters?name=Aru`](https://api-blue-archive.vercel.app/api/characters?name=Aru)
+> endpoint : [`/api/characters?name=Aru`](https://api-blue-archive.vercel.app)
 > you can choose a `query` other than `name`, [more](#query)
 
 <details>
@@ -91,7 +91,7 @@ All Route and Example results
 
 ### Get random character ( 1 )
 
-> endpoint : [`/api/character/random`](https://api-blue-archive.vercel.app/api/character/random) 
+> endpoint : [`/api/character/random`](https://api-blue-archive.vercel.app) 
 
 > You can use query count to get more than 1 character
 > endpoint : [`/api/character/random?count=NUMBER`](http://localhost:3000/api/character/random?count=2)
@@ -123,7 +123,7 @@ All Route and Example results
 
 ### Get all students specific ( By default 4 )
 
-> endpoint : [`/api/characters/students`](https://api-blue-archive.vercel.app/api/v1/characters/students)
+> endpoint : [`/api/characters/students`](https://api-blue-archive.vercel.app)
 
 <details>
   <summary><em>Payload Example</em></summary>
