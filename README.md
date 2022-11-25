@@ -1,4 +1,5 @@
 # Blue Archive API
+
 ![](https://img.shields.io/website?down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fapi-blue-archive.vercel.app%2F)
 
 baseurl: https://api-blue-archive.vercel.app
@@ -8,7 +9,6 @@ baseurl: https://api-blue-archive.vercel.app
 
 This is an open source API providing character information about the Blue Archive.This information is sourced from the public, i do not claim to own it.
 
-> Still a demo, this application v1
 
 # Technologies use
 

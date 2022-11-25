@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+/public/robot.txt
+/public/favicon.ico
+/public/sitemap.xml
+/public/sitemap.0.xml
+
 # testing
 /coverage
 
@@ -36,4 +41,21 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# next-sitemap
 next-sitemap.config.js
+
+# backend api
+*api
+
+
+
+
+
+
+
+
+
+
