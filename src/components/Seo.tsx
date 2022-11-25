@@ -4,17 +4,17 @@ const Seo: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Rest Api Blue Archive</title>
-        <meta name='description' content='Rest Api Blue Archive' />
+        <title>REST API Blue Archive</title>
+        <meta name="description" content="API Blue Archive, REST API Blue Archive, Blue Archive"/>
         <meta name='keywords' content='rest-api api free blue archive' />
-        <meta content='rest api blue archive' property='og:description' />
-        <meta content='Rest Api Blue Archive ' property='og:title' />
-        <meta content='Rest Api Blue Archive' property='og:site_name' />
+        <meta content='REST API Blue Archivee' property='og:description' />
+        <meta content='REST API Blue Archive ' property='og:title' />
+        <meta content='REST API Blue Archive' property='og:site_name' />
         <meta content='website' property='og:type' />
-        <meta content='https://rest-api-blue-archive.vercel.app/' property='og:url' />
-        <meta content='https://rest-api-blue-archive.vercel.app/arona.ico' property='og:image' />
+        <meta content='https://api-blue-archive.vercel.app/' property='og:url' />
+        <meta content='https://api-blue-archive.vercel.app/arona.ico' property='og:image' />
         <meta
-          content='https://rest-api-blue-archive.vercel.app/arona.ico'
+          content='https://api-blue-archive.vercel.app/arona.ico'
           property='og:image:secure_url'
         />
         <meta content='image/png' property='og:image:type' />
@@ -23,8 +23,8 @@ const Seo: React.FC = () => {
         <meta content='summary_large_image' name='twitter:card' />
         <meta content='@arufars' name='twitter:site' />
         <meta content='@arufars' name='twitter:creator' />
-        <meta content='Rest Api Blue Archive' name='twitter:title' />
-        <meta content='Rest Api Blue Archive' name='twitter:description' />
+        <meta content='REST API Blue Archive' name='twitter:title' />
+        <meta content='REST API Blue Archive' name='twitter:description' />
 
         <link rel='icon' href='/arona.ico' />
       </Head>

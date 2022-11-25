@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                   </Link>
                 </td>
                 <td className='px-6 py-4 whitespace-nowrap text-right'>
-                  Get all characters pagination
+                  Get all characters pagination,
                 </td>
               </tr>
               <tr className='bg-black bg-opacity-20'>

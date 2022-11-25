@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://api-blue-archive.vercel.app
-
-# Sitemaps
-Sitemap: https://api-blue-archive.vercel.app/sitemap.xml

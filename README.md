@@ -1,6 +1,6 @@
 # Blue Archive API
 
-This is a simple API for the game Blue Archive. It is currently in development and is not ready for use.
+This is a simple API for the game Blue Archive.
 
 baseurl: https://api-blue-archive.vercel.app
 
@@ -13,7 +13,6 @@ baseurl: https://api-blue-archive.vercel.app
 
 This is an open source API providing character information about the Blue Archive.This information is sourced from the public, i do not claim to own it.
 
-> Still a demo, this application v1
 
 # Technologies use
 
