@@ -20,7 +20,7 @@ All Route and Example results
 
 ### Get all characters Blue Archive ( By default 20 )
 
-> endpoint : [`/api/characters`](https://api-blue-archive.vercel.app/api/v1/characters)
+> endpoint : [`/api/characters`](https://api-blue-archive.vercel.app/api/characters)
 
 <details>
   <summary><em>Payload Example</em></summary>
@@ -41,7 +41,7 @@ All Route and Example results
 
 ### Get all characters pagination ( 20 )
 
-> endpoint : [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/v1/characters?page=1&perPage=20)
+> endpoint : [`/api/characters?page=NUMBER&perPage=NUMBER`](https://api-blue-archive.vercel.app/api/characters?page=1&perPage=20)
 
 <details>
   <summary><em>Payload Example</em></summary>
