@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                   <span className='font-bold'>GET</span>
                   <Link href='/api/characters?page=3&perPage=20'>
                     <span className='ml-2 font-medium cursor-pointer'>
-                      /api/characters?page=NUMBER&pagePage=NUMBER
+                      /api/characters?page=NUMBER&perPage=NUMBER
                     </span>
                   </Link>
                 </td>
