@@ -3,12 +3,12 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
-
-/public/robot.txt
-/public/favicon.ico
-/public/sitemap.xml
-/public/sitemap.0.xml
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # testing
 /coverage
@@ -30,9 +30,8 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
-.env*.local
-.env
+# env files (can opt-in for committing if needed)
+.env*
 
 # vercel
 .vercel
@@ -40,22 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# next-sitemap
-next-sitemap.config.js
-
-# backend api
-*api
-
-
-
-
-
-
-
-
-
-
